@@ -5,8 +5,8 @@ import random
 import hashlib
 
 
-DATABASE_URI = "/home/mutab736/web_programming/tddd97/lab3/twidder"      # Mutaz's Machine Path
-DATABASE_URI = "D:\\WebDevelopment\\WebLab\\lab4\\tddd97\\lab4_final\\twidder" # Talha's Machine Path
+DATABASE_URI = "./twidder"      # Mutaz's Machine Path
+# DATABASE_URI = "D:\\WebDevelopment\\WebLab\\lab4\\tddd97\\lab4_final\\twidder" # Talha's Machine Path
 
 
 
