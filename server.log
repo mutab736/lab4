@@ -1,0 +1,246 @@
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 17:49:03] "GET / HTTP/1.1" 200 9145 0.005701
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 17:49:03] "GET /client.css HTTP/1.1" 200 6596 0.003748
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 17:49:03] "GET /client.js HTTP/1.1" 200 16337 0.003566
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 17:49:03] "GET /favicon.ico HTTP/1.1" 404 342 0.001778
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 17:49:03] "GET /Twidder.jpg HTTP/1.1" 200 33111 0.003842
+Initializing WebSocket
+Validating WebSocket request
+::1 - - [2021-03-12 17:49:07] "GET / HTTP/1.1" 200 9145 0.004134
+Initializing WebSocket
+Validating WebSocket request
+::1 - - [2021-03-12 17:49:07] "GET /client.css HTTP/1.1" 200 6596 0.003048
+Initializing WebSocket
+Validating WebSocket request
+::1 - - [2021-03-12 17:49:07] "GET /client.js HTTP/1.1" 200 16337 0.002764
+Initializing WebSocket
+Validating WebSocket request
+::1 - - [2021-03-12 17:49:07] "GET /Twidder.jpg HTTP/1.1" 200 33111 0.002791
+Initializing WebSocket
+Validating WebSocket request
+::1 - - [2021-03-12 17:49:07] "GET /favicon.ico HTTP/1.1" 404 342 0.001484
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 17:49:14] "GET / HTTP/1.1" 200 9145 0.008493
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 17:49:14] "GET /client.css HTTP/1.1" 200 6596 0.002939
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 17:49:14] "GET /client.js HTTP/1.1" 200 16337 0.002715
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 17:49:14] "GET /Twidder.jpg HTTP/1.1" 200 33111 0.003406
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 17:49:14] "GET /favicon.ico HTTP/1.1" 404 342 0.000980
+Initializing WebSocket
+Validating WebSocket request
+Can only upgrade connection if using GET method.
+::ffff:127.0.0.1 - - [2021-03-12 17:50:00] "POST /signup HTTP/1.1" 500 134 0.007008
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 17:51:22] "GET / HTTP/1.1" 200 9145 0.010795
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 17:51:22] "GET /client.css HTTP/1.1" 200 6596 0.004627
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 17:51:22] "GET /client.js HTTP/1.1" 200 16337 0.004979
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 17:51:22] "GET /favicon.ico HTTP/1.1" 404 342 0.005588
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 17:51:22] "GET /Twidder.jpg HTTP/1.1" 200 33111 0.004585
+Initializing WebSocket
+Validating WebSocket request
+Can only upgrade connection if using GET method.
+::ffff:127.0.0.1 - - [2021-03-12 17:51:50] "POST /signup HTTP/1.1" 500 134 0.019302
+Initializing WebSocket
+Validating WebSocket request
+Can only upgrade connection if using GET method.
+::ffff:127.0.0.1 - - [2021-03-12 17:54:14] "POST /signup HTTP/1.1" 201 120 0.025441
+Initializing WebSocket
+Validating WebSocket request
+Can only upgrade connection if using GET method.
+::ffff:127.0.0.1 - - [2021-03-12 17:54:39] "POST /signin HTTP/1.1" 500 134 0.023082
+Initializing WebSocket
+Validating WebSocket request
+Can only upgrade connection if using GET method.
+::ffff:127.0.0.1 - - [2021-03-12 17:54:44] "POST /signin HTTP/1.1" 500 134 0.020166
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 17:56:31] "GET / HTTP/1.1" 200 9145 0.012299
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 17:56:31] "GET /client.css HTTP/1.1" 200 6596 0.003874
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 17:56:31] "GET /client.js HTTP/1.1" 200 16337 0.004614
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 17:56:31] "GET /favicon.ico HTTP/1.1" 404 342 0.004466
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 17:56:31] "GET /Twidder.jpg HTTP/1.1" 200 33111 0.003656
+Initializing WebSocket
+Validating WebSocket request
+Can only upgrade connection if using GET method.
+::ffff:127.0.0.1 - - [2021-03-12 17:56:42] "POST /signin HTTP/1.1" 500 134 0.024584
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 18:27:39] "GET / HTTP/1.1" 200 9145 0.011176
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 18:27:40] "GET /client.css HTTP/1.1" 200 6596 0.004825
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 18:27:40] "GET /client.js HTTP/1.1" 200 16337 0.004389
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 18:27:40] "GET /favicon.ico HTTP/1.1" 404 342 0.003616
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 18:27:40] "GET /Twidder.jpg HTTP/1.1" 200 33111 0.002809
+Initializing WebSocket
+Validating WebSocket request
+Can only upgrade connection if using GET method.
+::ffff:127.0.0.1 - - [2021-03-12 18:28:12] "POST /signin HTTP/1.1" 500 134 0.022953
+Initializing WebSocket
+Validating WebSocket request
+Can only upgrade connection if using GET method.
+::ffff:127.0.0.1 - - [2021-03-12 18:28:26] "POST /signin HTTP/1.1" 500 134 0.021382
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 18:28:30] "GET / HTTP/1.1" 200 9145 0.004426
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 18:28:45] "GET / HTTP/1.1" 200 9145 0.004450
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 18:28:45] "GET /client.css HTTP/1.1" 200 6596 0.006428
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 18:28:45] "GET /client.js HTTP/1.1" 200 16337 0.005443
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 18:28:45] "GET /favicon.ico HTTP/1.1" 404 342 0.002332
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 18:28:45] "GET /Twidder.jpg HTTP/1.1" 200 33111 0.003940
+Initializing WebSocket
+Validating WebSocket request
+Can only upgrade connection if using GET method.
+::ffff:127.0.0.1 - - [2021-03-12 18:28:57] "POST /signin HTTP/1.1" 500 134 0.030889
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 18:31:08] "GET / HTTP/1.1" 200 9145 0.009470
+Initializing WebSocket
+Validating WebSocket request
+Can only upgrade connection if using GET method.
+::ffff:127.0.0.1 - - [2021-03-12 18:31:34] "POST /signin HTTP/1.1" 500 134 0.017413
+Initializing WebSocket
+Validating WebSocket request
+Can only upgrade connection if using GET method.
+::ffff:127.0.0.1 - - [2021-03-12 18:33:22] "POST /signin HTTP/1.1" 200 146 0.028577
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 18:33:22] "GET /getuserdatabytoken HTTP/1.1" 200 243 0.015326
+Initializing WebSocket
+Validating WebSocket request
+Attempting to upgrade connection
+WebSocket request accepted, switching protocols
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 18:33:22] "GET /getusermessagebytoken HTTP/1.1" 200 198 0.013037
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 18:33:32] "GET /signout HTTP/1.1" 200 115 0.024262
+Closed WebSocket
+Failed to write closing frame -> closing socket
+Closed WebSocket
+Failed to write closing frame -> closing socket
+Closed WebSocket
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 18:33:36] "GET /forgetPassword.html HTTP/1.1" 200 304 0.017297
+Initializing WebSocket
+Validating WebSocket request
+Can only upgrade connection if using GET method.
+@server.forgetPassword() :token and email values mutaz@abc.com
+@server.forgetPassword() :database result 1
+Starting new HTTPS connection (1): api.clxcommunications.com:443
+https://api.clxcommunications.com:443 "POST /xms/v1/18c97bb4d8364e80b0de46002d768b3c/batches HTTP/1.1" 401 0
+Request{b'{"from": "Twidder", "to": ["46700624058"], "type": "mt_text", "body": "your new Password 3162cd98b0932d1da0189bbdd58329a017bcd8a5ec405510c5ef06ca18d78cc6"}'} Response(code 401){}
+Failed to communicate with XMS: Authentication failed with service plan "18c97bb4d8364e80b0de46002d768b3c"
+::ffff:127.0.0.1 - - [2021-03-12 18:33:46] "POST /forgetpassword HTTP/1.1" 400 124 0.825630
+Initializing WebSocket
+Validating WebSocket request
+Can only upgrade connection if using GET method.
+@server.forgetPassword() :token and email values mutaz@abc.com
+@server.forgetPassword() :database result 1
+Starting new HTTPS connection (1): api.clxcommunications.com:443
+https://api.clxcommunications.com:443 "POST /xms/v1/18c97bb4d8364e80b0de46002d768b3c/batches HTTP/1.1" 401 0
+Request{b'{"from": "Twidder", "to": ["46700624058"], "type": "mt_text", "body": "your new Password qnwbuawahu"}'} Response(code 401){}
+Failed to communicate with XMS: Authentication failed with service plan "18c97bb4d8364e80b0de46002d768b3c"
+::ffff:127.0.0.1 - - [2021-03-12 18:35:44] "POST /forgetpassword HTTP/1.1" 400 124 0.730110
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 18:42:53] "GET /forgetPassword.html HTTP/1.1" 200 1178 0.010974
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 18:42:53] "GET /client.js HTTP/1.1" 304 209 0.004434
+Initializing WebSocket
+Validating WebSocket request
+Can only upgrade connection if using GET method.
+@server.forgetPassword() :token and email values mutaz@abc.com
+@server.forgetPassword() :database result 1
+Starting new HTTPS connection (1): api.clxcommunications.com:443
+https://api.clxcommunications.com:443 "POST /xms/v1/74900228354a470a8fcaef0c42e7b9f6/batches HTTP/1.1" 201 330
+Request{b'{"from": "Twidder", "to": ["46700624058"], "type": "mt_text", "body": "your new Password vaqfwpthtz"}'} Response(code 201){{"id":"01F0KRHHWDH9HM1B6X9DH11Q1E","to":["46700624058"],"from":"Twidder","canceled":false,"body":"This is a test message from your Sinch account","type":"mt_text","created_at":"2021-03-12T17:42:58.701Z","modified_at":"2021-03-12T17:42:58.701Z","delivery_report":"none","expire_at":"2021-03-15T17:42:58.701Z","flash_message":false}}
+::ffff:127.0.0.1 - - [2021-03-12 18:42:58] "POST /forgetpassword HTTP/1.1" 200 115 0.552996
+Initializing WebSocket
+Validating WebSocket request
+Can only upgrade connection if using GET method.
+@server.forgetPassword() :token and email values mutaz@abc.com
+@server.forgetPassword() :database result 1
+Starting new HTTPS connection (1): api.clxcommunications.com:443
+https://api.clxcommunications.com:443 "POST /xms/v1/74900228354a470a8fcaef0c42e7b9f6/batches HTTP/1.1" 201 329
+Request{b'{"from": "Twidder", "to": ["4676516403"], "type": "mt_text", "body": "your new Password dffwwxzeno"}'} Response(code 201){{"id":"01F0KRQQS5NRE90H9QK99M04RQ","to":["4676516403"],"from":"Twidder","canceled":false,"body":"This is a test message from your Sinch account","type":"mt_text","created_at":"2021-03-12T17:46:21.349Z","modified_at":"2021-03-12T17:46:21.349Z","delivery_report":"none","expire_at":"2021-03-15T17:46:21.349Z","flash_message":false}}
+::ffff:127.0.0.1 - - [2021-03-12 18:46:21] "POST /forgetpassword HTTP/1.1" 200 115 0.555817
+Initializing WebSocket
+Validating WebSocket request
+Can only upgrade connection if using GET method.
+@server.forgetPassword() :token and email values mutaz@abc.com
+@server.forgetPassword() :database result 1
+Starting new HTTPS connection (1): api.clxcommunications.com:443
+https://api.clxcommunications.com:443 "POST /xms/v1/74900228354a470a8fcaef0c42e7b9f6/batches HTTP/1.1" 201 312
+Request{b'{"from": "Twidder", "to": ["46769516403"], "type": "mt_text", "body": "your new Password zboaqpkrnx"}'} Response(code 201){{"id":"01F0KRTC6MA6BP13FF895K19CQ","to":["46769516403"],"from":"Twidder","canceled":false,"body":"your new Password zboaqpkrnx","type":"mt_text","created_at":"2021-03-12T17:47:47.796Z","modified_at":"2021-03-12T17:47:47.796Z","delivery_report":"none","expire_at":"2021-03-15T17:47:47.796Z","flash_message":false}}
+::ffff:127.0.0.1 - - [2021-03-12 18:47:47] "POST /forgetpassword HTTP/1.1" 200 115 0.522406
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 18:48:06] "GET / HTTP/1.1" 200 306 0.008109
+Initializing WebSocket
+Validating WebSocket request
+Can only upgrade connection if using GET method.
+::ffff:127.0.0.1 - - [2021-03-12 18:48:38] "POST /signin HTTP/1.1" 200 146 0.044324
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 18:48:38] "GET /getuserdatabytoken HTTP/1.1" 200 243 0.030124
+Initializing WebSocket
+Validating WebSocket request
+Attempting to upgrade connection
+WebSocket request accepted, switching protocols
+Initializing WebSocket
+Validating WebSocket request
+::ffff:127.0.0.1 - - [2021-03-12 18:48:38] "GET /getusermessagebytoken HTTP/1.1" 200 198 0.012514

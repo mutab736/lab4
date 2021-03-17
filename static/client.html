@@ -1,0 +1,207 @@
+<html>
+
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
+
+  <link href="client.css" type="text/css" rel="stylesheet">
+  <script src="client.js" type="text/javascript"></script>
+  <!--script src="serverstub.js" type="text/javascript"></script-->
+
+  <script id="welcomeview" type="text/view">
+        <div id="mainDiv">
+                <div id="logoDiv">
+                    <img src="Twidder.jpg" />
+                </div>
+                <div id="sepDiv">
+        
+                </div>
+                <div id="loginSignupDiv">
+                <div id="loginDiv">
+                    <form  id="login-form" action="#" onsubmit="login(this);return false;">
+                    <fieldset id="login-form-fieldset">
+                    <!-- <legend>Login</legend> -->
+                    <label id="signin-errorMessageLabel" class="errorMessage"></label>
+                    <label id="signin-errorMessage" class="errorMessage"></label>
+                    <br>
+                    <label for="login-username">Email:</label>
+                    <input type="email" id="login-email" name="loginEmail" required />
+                    <label for="login-password">Password:</label>
+                    <input type="password" id="login-password" name="loginPassword" minlength="10" required />
+                    <input type="submit" id="loginBtn" value="Login" />
+                    <a href="forgetPassword.html"> Forget password </a>
+                    </fieldset>
+                    </form>
+        
+                </div>
+                <br />
+              </div>
+
+                <div id="signupDiv">
+                    <form id="signup-form" action="#" onsubmit="register(this);return false;">
+                        <fieldset id="signup-form-fieldset">
+                            <!-- <legend>Signup</legend> -->
+                            <label id="signup-errorMessageLabel" class="errorMessage"></label>
+                            <label id="signup-errorMessage" class="errorMessage"></label>
+                            <br>
+                            
+                       
+                        <label for="signup-firstname">First Name:</label>
+                        <input type="text" id="signup-firstname" name="signupFirstName" required />
+                        <label for="signup-familyname">Family Name:</label>
+                        <input type="text" id="signup-familyname" name="signupFamilyName" required />
+                        <label for="signup-gender">Gender:</label>
+                        <select name="signupGender" id="signup-gender" required>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                          </select> <br><br>
+                          <label for="signup-city">City:</label>
+                          <input type="text" id="signup-city" name="signupCity" required />
+                          <label for="signup-country">Country:</label>
+                          <input type="text" id="signup-country" name="signupCountry" required />
+                          <label for="signup-telephone">Telephone:</label>
+                          <input type="text" id="signup-telephone" name="signupTelephone" required />
+
+                          <label for="signup-username">Email:</label>
+                          <input type="email" id="signup-email" name="signupEmail" required />
+                          <label for="signup-password">Password:</label>
+                          <input type="password" id="signup-password" name="signupPassword" minlength="10" required />
+                          <label for="signup-repeatpassword">confirm Password:</label>
+                          <input type="password" id="signup-repeatpassword" name="signupRepeatPassword" minlength="10" required />
+                          
+                        <input type="submit" id="signupBtn" value="SignUp" />
+                        </form>
+                </div>
+                
+                </div>
+        </script>
+   
+  <script id="profileview" type="text/view">
+            <!-- <h1>Profile</h1> -->
+
+  <!-- <nav class="navBar"> 
+            <ul>
+                <li> <a href="selected" onclick="openTab(event, 'wall')"> Home </a> </li>
+                <li> <a href="#"> Browse </a> </li>
+                <li> <a href="#"> Account </a>  </li>
+            </ul>
+        </nav> -->
+
+  <!-- Tab links -->
+  <div class="tab">
+    <button class="tablinks" id="home" onclick="openTab(event, 'Home')">Home</button>
+    <button class="tablinks" onclick="openTab(event, 'Browse')">Browse</button>
+    <button class="tablinks" onclick="openTab(event, 'Account')">Account</button>
+  </div>
+
+
+  <div id="Home" class="tabcontent">
+    <button id="home_refresh_Button" onclick="refresh()"> <b>Refresh<b> </button>
+    <form id="home_post_message-form" action="#" onsubmit="postMessage(this);return false;">
+   <!-- <button id="home_refresh_Button" onclick="refresh()"> <b>Refresh<b> </button> -->
+    <div id="post">
+      <textarea name="homePostText" placeholder="type your post here" id="post_text" cols="50" rows="8" required  ></textarea>
+    </div>
+
+    <input type="submit" id="home_post_Button" name="post" value="Post" />
+
+    <div class="postArea" id="home_post_area">
+      <h3 id="home_previous_post"> Previous Posts Here! </h3>
+    </div>
+    
+
+  </form>
+
+ <!--  </div> -->
+
+  <!-- User Info --> <!-- Changed in variables (By: TBS) -->
+  <div class="UserInfo">
+    <h3 id="heading"> User Information </h3>
+   <form id="home_logout-form" action="#" onsubmit="logout();return false;">
+    <label id="signout-errorMessageLabel" class="errorMessage"></label>
+    <label id="signout-errorMessage" class="errorMessage"></label>
+    <br>
+    <div class="Cradentials" id="first_nmae"> Email:
+      <label class="outputFileds" id="home_f_name" name="f_name" />
+    </div>
+    <div class="Cradentials" id="last_nmae"> First Name:
+      <label class="outputFileds" id="home_l_name" name="l_name" />
+    </div>
+
+    <div class="Cradentials" id="email"> Last Name:
+      <label class="outputFileds" id="home_i_email" name="email" />
+    </div>
+    <div class="Cradentials" id="gender"> Gender:
+      <label class="outputFileds" id="home_i_gender" name="gender" />
+    </div>
+    <div class="Cradentials" id="country"> City:
+      <ilabel class="outputFileds" id="home_i_country" name="country" />
+    </div>
+    <div class="Cradentials" id="city"> Country:
+      <label class="outputFileds" id="home_i_city" name="city" />
+    </div>
+    <input type="submit" id="home_logout" name="homeLogout" value="Logout" />
+   </form>
+  </div>
+
+</div>
+
+<!-- Browse Tab -->
+<div id="Browse" class="tabcontent">
+  <h3 id="brows_section">Browse Section!</h3>
+  <p id="search_here">Serach Here</p>
+  <button id="browse_refresh_Button" onclick="refresh()"> <b>Refresh<b> </button>
+  <form id="browse_by_email-form" action="#" onsubmit="getPostedMessagesByEmail(this);return false;">
+    
+  <input type="email" class="outputFileds" placeholder="Serach by email" id="User_info1" name="userEmail" required >
+  <input type="submit" id="browseButton"  name="browseButton" value="Browse"/>
+  <div id="browse-ErrorMessage" class="errorMessage">
+    <label id="browse-errorMessageLabel"></label>
+    <label id="browse-errorMessage"></label>
+  </div>
+  <div id="serachResult" > Serach Results Here </div>
+  
+  </form>
+
+</div>
+
+<div id="Account" class="tabcontent">
+  <h3 id="account_section">Account Section!</h3>
+  <p id="change_pass"> Change Password</p>
+  <form id="account_change_password-form" action="#" onsubmit="changePassword(this);return false;">
+  
+ <div id="account-changePassword-ErrorMessage" class="errorMessage">
+    <label id="changePassword-errorMessageLabel"></label>
+    <label id="changePassword-errorMessage"></label>
+  </div>
+
+  <p class="text_passwrod" id="oldPass"> Old Password </p>
+  <input type="password" class="text_passwrod" placeholder="Old Password" id="oldPassword" name="oldPassword" >
+  <p class="text_passwrod" id="newPass"> New Password </p>
+  <input type="password" class="text_passwrod" placeholder="New Password" id="newPassword" name="newPassword" minlength="10" required>
+  <p class="text_passwrod" id="newPass1"> New Password </p>
+  <input type="password" class="text_passwrod" placeholder="new Password" id="confirmNewPassword" name="confirmNewPassword" minlength="10" required>
+  
+  <input type="submit" id="cahngePasswordButton" name="ChanePassword" value="Change Password" />
+
+</form>
+
+
+<!--   <button id="cahngePasswordButton"> <b>Chane Password<b> </button>
+ -->
+</div>
+
+
+  </script>
+
+  <title>Main Page</title>
+
+</head>
+
+<body onload="onPageLoad()">
+  <div id="page-content">
+
+  </div>
+</body>
+
+</html>

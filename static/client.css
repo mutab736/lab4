@@ -1,0 +1,378 @@
+
+html{
+    background-color: rgb(247, 252, 255);
+}
+
+#mainDiv{
+    width: 750px;
+    height: 700px;
+    /* margin:25% 25% 25% 25%; */
+    margin: auto;
+    border:solid black;
+    overflow-x:auto;
+
+}
+
+#logoDiv{
+    width: 340px;
+    height: 400px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#loginBtn{
+    width: 70px;
+    margin-top: 4px;
+    float: right;
+}
+
+
+#sepDiv{
+    width: 10px;
+    height: 400px;
+    display: inline-block;
+
+}
+
+
+#loginSignupDiv{
+    width: 200px;
+    height: 530px;
+   display: inline-block;
+    vertical-align:top;
+
+}
+
+
+#signupBtn{
+    width: 70px;
+    margin-top: 4px;
+    float: right;
+}
+
+#signup-gender{
+    margin-top:  12px;
+    margin-bottom:  8px;
+    width: 110px;
+    display: inline-block;
+}
+
+#loginDiv{
+    width: 150px;
+    height: 150px;
+   /*  display: inline-block; */
+
+}
+
+#signupDiv{
+    width: 150px;
+    height: 250;
+    margin-top: -280px;
+    margin-left: 478px;
+
+}
+
+/* Profile view */
+.navBar li{
+    display: inline;
+    padding: 32px 32px 32px 32px;
+    margin-top: 50px;
+    list-style: none;
+    
+    font-family: sans-serif;
+    font-weight: bold;
+   
+    /* background-color: cornflowerblue; */
+    /* border: solid crimson; */
+}
+
+.navBar a{
+    text-decoration: none;
+    /* background-color: cornflowerblue; */
+    /* border: solid crimson; */
+}
+
+.navBar{
+    background-color: rgb(223, 243, 255);
+    border: solid #00294b3d;
+    border-radius: 7px;
+    margin-top: 10;
+}
+
+#wall{
+ border: solid #00294b25;;
+ margin-top: 50px;
+ margin-right: 50px;
+ margin-left: 50px;
+ padding-bottom: 50px;
+ border-radius: 7px;
+ background-color: rgba(201, 240, 255, 0.267);
+ /* background-color: sienna; */
+
+}
+
+#post{
+    /* display: inline; */
+    /* border: solid slategrey; */
+    margin-top: 10px;
+    margin-left: 400px;
+    
+}
+
+#home_post_Button{
+    width: 70px;
+    height: 30px;
+    margin-top: -10px;
+    margin-left: 710px;
+}
+
+#home_logout{
+    width: 70px;
+    height: 30px;
+    float: right;
+    margin: 20px;
+    margin-top: -200px;
+    background-color: rgb(187, 228, 255);
+    cursor: pointer;
+}
+
+#home_refresh_Button{
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 710px;
+}
+
+
+#browse_refresh_Button{
+    width: 70px;
+    height: 30px;
+    /* margin-top: -160px; */
+}
+
+
+.postArea{
+    border: solid rgba(65, 65, 65, 0.555);
+    margin-top: 20px;
+    padding: 2px;
+    margin-left: 90px;
+    margin-right: 90px;
+    background-color: rgba(255, 255, 255, 0.322);
+    font-family: sans-serif;
+
+}
+
+#previous_post{
+    /* border: solid blue; */
+    margin: 2px;
+    padding: 2px;
+    /* background-color: blueviolet; */
+    align-content: center;
+    text-align: center;
+    margin-bottom: 200px;
+    color: rgb(0, 81, 134);
+
+}
+.UserInfo{
+    border: solid #00294b25;
+    background-color: rgba(201, 240, 255, 0.267);
+    margin: 20px 50px 50px 50px;
+    border-radius: 7px;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+}
+
+
+.cradentials{
+    /* border: solid sienna; */
+    margin: 7px 7px 7px 7px;
+    /* border: solid sienna; */
+    /* background-color: sienna; */
+    /* text-align:center; */
+
+}
+
+#heading{
+    text-align: center;
+    color: rgb(0, 81, 134);
+    font-family: sans-serif;
+}
+
+#f_name{
+margin-left: 10px;
+}
+
+#l_name{
+margin-left: 18px;
+}
+
+#i_email{
+
+    margin-left: 56px;
+}
+
+#i_gender{
+margin-left: 43px;
+}
+
+#i_country{
+margin-left: 38px;
+}
+
+#i_city{
+margin-left: 69px;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #d2f1ffa4;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: rgba(142, 191, 255, 0.664);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: rgba(0, 83, 160, 0.74);
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: hsla(207, 100%, 91%, 0.418);
+}
+
+#Browse h3, p, input, div{
+align-items:center;
+margin: 20px;
+}
+
+#Browse h3, p{
+    margin-left: 570px;
+}
+
+#Browse input{
+    margin-left: 2px;
+}
+
+
+#brows_section{
+    /* border: solid blue; */
+    margin: 2px;
+    padding: 2px;
+    /* background-color: blueviolet; */
+    align-content: center;
+    /* text-align: center; */
+    margin-bottom: 200px;
+    color: rgb(0, 81, 134);
+    font-family: sans-serif;
+}
+
+#search_here{
+    /* border: solid blue; */
+    margin: 2px;
+    padding: 2px;
+    /* background-color: blueviolet; */
+    /* align-content: center;
+    text-align: center; */
+    margin-bottom: 80px;
+    color: rgb(0, 81, 134);
+    font-family: sans-serif;
+}
+
+#User_info1{
+    /* margin-top: -700px; */
+    width: 170px;
+    height: 30px;
+}
+
+#serachResult{
+    padding: 100px;
+    margin: 30px;;
+    background-color: rgba(200, 230, 255, 0.397);
+    border: solid rgba(0, 75, 105, 0.404);
+    font-family: sans-serif;
+}
+
+#browseButton{
+    width: 70px;
+    height: 30px;
+    margin-left: 102px;
+}
+
+/* Account Section */
+
+#account_section{
+    /* border: solid blue; */
+    margin: 2px;
+    padding: 2px;
+    /* background-color: blueviolet; */
+    align-content: center;
+    text-align: center;
+    margin-bottom: 200px;
+    color: rgb(0, 81, 134);
+    font-family: sans-serif;
+}
+
+#change_pass{
+   /* border: solid blue; */
+   margin: 2px;
+   padding: 2px;
+   /* background-color: blueviolet; */
+   align-content: center;
+   text-align: center;
+   margin-bottom: 200px;
+   margin-top: -170px;
+   color: rgb(0, 81, 134);
+   font-family: sans-serif;
+}
+
+.text_passwrod{
+    color: rgb(0, 81, 134);
+    font-family: sans-serif;
+}
+
+#oldPassword{
+   /* align-content: center; */
+    margin-top: -40px;
+    margin-left: 720px;
+}
+#newPassword{
+   /* align-content: center; */
+    margin-top: -40px;
+    margin-left: 720px;
+}
+#confirmNewPassword{
+   /* align-content: center; */
+    margin-top: -40px;
+    margin-left: 720px;
+}
+
+#cahngePasswordButton{
+   /* align-content: center; */
+   width: 130px;
+   height: 25px;
+    margin-top: 7px;
+    margin-left: 722px;
+}
+.errorMessage{
+    text-align: center;
+    color:red;
+}
