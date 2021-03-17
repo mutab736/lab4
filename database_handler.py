@@ -5,8 +5,8 @@ import random
 import hashlib
 
 
-DATABASE_URI = "./twidder"      # Mutaz's Machine Path
-#DATABASE_URI = "D:\\WebDevelopment\\WebLab\\Lab3\\lab3\\tddd97\\lab3\\twidder" # Talha's Machine Path
+DATABASE_URI = "/home/mutab736/web_programming/tddd97/lab3/twidder"      # Mutaz's Machine Path
+DATABASE_URI = "D:\\WebDevelopment\\WebLab\\lab4\\tddd97\\lab4_final\\twidder" # Talha's Machine Path
 
 
 
@@ -86,6 +86,11 @@ def change_password(userToken, oldPassword, newPassword):
         userEmail = convert_cursor_with_single_value_to_string(
             userEmail)
         userEmail = str(userEmail)
+        
+        oldPassword = hashlib.sha3_256(oldPassword.encode()).hexdigest()
+        #currentPassword = hashlib.sha3_256(currentPassword.encode()).hexdigest()
+        newPassword = hashlib.sha3_256(newPassword.encode()).hexdigest()
+
 
         if oldPassword == currentPassword:
             try:
