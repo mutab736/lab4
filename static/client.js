@@ -451,7 +451,7 @@ function genericGetXHR(url, jsonValues, successCall, failureCall){
 // 	 }
 // }
 function connectToSocket() {
-  let conn = new WebSocket("ws://localhost:5001/socket");
+  let conn = new WebSocket("ws://localhost:8000/socket");
   conn.onopen = function () {
     let data = { "email": localStorage.getItem("userEmail"), "token": localStorage.getItem("userToken") };
     console.log("open ws "+JSON.stringify(data));
