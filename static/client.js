@@ -451,7 +451,7 @@ function genericGetXHR(url, jsonValues, successCall, failureCall){
 // 	 }
 // }
 function connectToSocket() {
-  let conn = new WebSocket("ws://localhost/socket");
+  let conn = new WebSocket("ws://twidder-mutab736-dev.apps.sandbox.x8i5.p1.openshiftapps.com/socket");
   conn.onopen = function () {
     let data = { "email": localStorage.getItem("userEmail"), "token": localStorage.getItem("userToken") };
     console.log("open ws "+JSON.stringify(data));
