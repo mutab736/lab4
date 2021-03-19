@@ -366,6 +366,6 @@ def send_sms(phoneNo,message):
         return False
 
 if __name__ == '__main__':
-    http_server = WSGIServer(('',5001), app, handler_class=WebSocketHandler)
+    http_server = WSGIServer(('',8000), app, handler_class=WebSocketHandler)
     http_server.serve_forever()
     #app.run()
